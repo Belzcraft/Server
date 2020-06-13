@@ -1,0 +1,20 @@
+uuid: b1faf9fc-9a98-422a-a138-0312b0fe15d9
+name: Dj_Denon
+primary-group: admin
+permissions:
+- luckperms.*
+- bungeecord.command.alert
+- bungeecord.command.end
+- bungeecord.command.ip
+- bungeecord.command.reload
+- bungeecord.command.server
+- bungeecord.command.list
+- bungeecord.command.send
+- bungeecord.vip
+- luckperms.autoop
+- minecraft.command.data
+- minecraft.command.datapack
+- minecraft.command.function
+- minecraft.command.trigger
+parents:
+- admin

@@ -1,0 +1,16 @@
+uuid: 5c89fdd2-17d3-4666-87d9-6d4912138cde
+name: Axtone
+primary-group: mod
+permissions:
+- luckperms.*
+- luckperms.autoop
+- bungeecord.command.alert
+- bungeecord.command.end
+- bungeecord.command.ip
+- bungeecord.command.reload
+- bungeecord.command.server
+- bungeecord.command.list
+- bungeecord.command.send
+- bungeecord.vip
+parents:
+- mod

@@ -1,0 +1,95 @@
+name: default
+permissions:
+- essentials.warps.ltt_town:
+    value: true
+    context:
+      server: world
+      world: old_survival_world
+- chestshop.shop.*
+- essentials.chat.*
+- mcmmo.ability.*
+- mcmmo.skills.*
+- chestshop.adminshop:
+    value: false
+- essentials.afk.auto
+- essentials.back
+- essentials.back.into.old_survival_world
+- essentials.back.into.world
+- essentials.back.into.world_nether
+- essentials.back.into.world_the_end
+- essentials.balance
+- essentials.balancetop
+- essentials.chat.color:
+    value: false
+- essentials.delhome
+- essentials.disposal
+- essentials.hat
+- essentials.help
+- essentials.home
+- essentials.kit
+- essentials.kit.tools
+- essentials.kits.tools
+- essentials.list
+- essentials.motd
+- essentials.msg
+- essentials.msgtoggle
+- essentials.pay
+- essentials.sethome
+- essentials.sethome.multiple
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.trash
+- essentials.warp
+- essentials.warp.endfarm
+- essentials.warp.list
+- essentials.warps
+- essentials.warps.arena
+- essentials.warps.endfarm
+- essentials.warps.ltt_summit
+- essentials.warps.ltt_town
+- essentials.warps.nether
+- essentials.warps.spawn
+- essentials.warps.town
+- essentials.warps.wither
+- essentials.warps.xp
+- essentials.world.end
+- essentials.worlds.end
+- essentials.worlds.old_survival_world
+- essentials.worlds.world
+- essentials.worlds.world_nether
+- essentials.worlds.world_the_end
+- griefprevention.claimbook
+- griefprevention.claims
+- griefprevention.createclaims
+- griefprevention.trapped
+- mcmmo.ability
+- mcmmo.ability.alchemy
+- mcmmo.ability.alchemy.all
+- mcmmo.ability.alchemy.catalysis
+- mcmmo.ability.alchemy.concoctions
+- mcmmo.commands.inspect
+- mcmmo.commands.mcrank
+- mcmmo.commands.mcstats
+- mcmmo.commands.mctop
+- mcmmo.perks
+- mcmmo.skills
+- minecraft.command.execute:
+    value: false
+- minecraft.command.function:
+    value: false
+- multiverse.portal.access.ltt1
+- multiverse.portal.access.ltt2
+- trash
+- wild.wild
+- wild.wildtp
+- wild.wildtp.delay
+prefixes:
+- '&r[&7Player&r] ':
+    priority: 1
+meta:
+- max-homes:
+    value: =
+    context:
+      server: '5'

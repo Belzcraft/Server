@@ -1,0 +1,7 @@
+uuid: c4a7a73d-259f-461b-a961-854dd4d5a82d
+name: _Phantom_Wolf_
+primary-group: helper
+permissions:
+- bungeecord.command.server
+parents:
+- helper

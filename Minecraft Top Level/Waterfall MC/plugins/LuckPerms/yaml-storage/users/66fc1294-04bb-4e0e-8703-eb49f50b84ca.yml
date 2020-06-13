@@ -1,0 +1,8 @@
+uuid: 66fc1294-04bb-4e0e-8703-eb49f50b84ca
+name: TheGamingFireman
+primary-group: admin
+permissions:
+- luckperms.*
+- luckperms.autoop
+parents:
+- admin

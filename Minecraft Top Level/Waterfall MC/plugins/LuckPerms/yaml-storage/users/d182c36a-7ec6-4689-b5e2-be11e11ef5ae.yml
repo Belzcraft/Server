@@ -1,0 +1,7 @@
+uuid: d182c36a-7ec6-4689-b5e2-be11e11ef5ae
+name: cjneff_
+primary-group: mod
+permissions:
+- bungeecord.command.server
+parents:
+- mod

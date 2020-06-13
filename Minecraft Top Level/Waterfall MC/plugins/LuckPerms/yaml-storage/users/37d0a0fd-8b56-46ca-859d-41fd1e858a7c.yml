@@ -1,0 +1,8 @@
+uuid: 37d0a0fd-8b56-46ca-859d-41fd1e858a7c
+name: Belzcraft
+primary-group: admin
+permissions:
+- luckperms.*
+- luckperms.autoop
+parents:
+- admin

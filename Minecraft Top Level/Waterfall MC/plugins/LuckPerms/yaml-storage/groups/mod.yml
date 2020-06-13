@@ -1,0 +1,71 @@
+name: mod
+permissions:
+- bungeecord.server
+- essentials.back.ondeath
+- essentials.balance
+- essentials.balancetop
+- essentials.ban
+- essentials.broadcast
+- essentials.delhome
+- essentials.disposal
+- essentials.fly
+- essentials.gamemode
+- essentials.gamemode.others
+- essentials.gamemode.spectator
+- essentials.gamemode.survival
+- essentials.home
+- essentials.invsee
+- essentials.kick
+- essentials.pay
+- essentials.sethome
+- essentials.sethome.multiple.mod
+- essentials.teleport
+- essentials.tempban
+- essentials.time
+- essentials.time.set
+- essentials.tp
+- essentials.tp.others
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.tpdeny
+- essentials.vanish:
+    value: false
+- essentials.warp
+- essentials.warp.list
+- essentials.warps
+- essentials.warps.arena
+- essentials.warps.nether
+- essentials.warps.spawn
+- essentials.warps.town
+- essentials.warps.xp
+- essentials.worlds.world_nether
+- essentials.worlds.world_the_end
+- griefprevention
+- griefprevention.claims
+- griefprevention.createclaims
+- griefprevention.deleteclaims
+- griefprevention.ignoreclaims
+- mcmmo
+- minecraft.command.gamemode
+- minecraft.command.teleport
+- minecraft.command.time
+- openinv.openender
+- openinv.openinv:
+    value: false
+- openinv.silent
+- wild
+- wild.wildtp.direction
+- wild.wildtp.others
+- wild.wildtp.world
+parents:
+- default
+prefixes:
+- '&r[&dMod&r] ':
+    priority: 75
+meta:
+- max-homes:
+    value: =
+    context:
+      server: '10'

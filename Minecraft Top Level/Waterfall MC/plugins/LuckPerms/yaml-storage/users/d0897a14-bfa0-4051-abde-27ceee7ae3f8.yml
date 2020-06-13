@@ -1,0 +1,7 @@
+uuid: d0897a14-bfa0-4051-abde-27ceee7ae3f8
+name: TKDR34
+primary-group: mod
+permissions:
+- bungeecord.command.server
+parents:
+- mod

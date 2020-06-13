@@ -1,0 +1,7 @@
+uuid: e8a659f6-9f11-4ac4-a32e-ce2b52ae6e02
+name: blackfalcon1210
+primary-group: mod
+permissions:
+- bungeecord.command.server
+parents:
+- mod

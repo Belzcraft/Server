@@ -1,0 +1,95 @@
+listeners:
+- query_port: 25565
+  motd: '&6Belz&8Craft &7v2.1 Alpha'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - LOBBY
+  bind_local_address: false
+  host: 0.0.0.0:25565
+  max_players: 250
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - bungeecord.command.send
+  - bungeecord.vip
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+stats: 4574f3a7-acbd-419e-bedd-32cb4eb45af2
+player_limit: 250
+ip_forward: true
+groups:
+  dj_denon:
+  - admin
+  axtone:
+  - admin
+  belzcraft:
+  - admin
+  thegamingfireman:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: -1
+log_commands: false
+prevent_proxy_connections: false
+online_mode: true
+forge_support: true
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: '&6Belz&8Craft &7v2.1 Alpha'
+    address: localhost:25566
+    restricted: false
+  Survival-1.15.2:
+    motd: SURVIVAL-1.15.2
+    address: localhost:25567
+    restricted: false
+  LTT-ALPHA:
+    motd: LTT ALPHA
+    address: localhost:25568
+    restricted: false
+  Super-Secret-Server:
+    motd: No Admitance
+    address: localhost:25569
+    restricted: false
+  Forge-Survival-1.15.2:
+    motd: Modded Survival Server
+    address: localhost:25570
+    restricted: false
+  HermitCraft-Season-6:
+    motd: HermitCraft Season 6
+    address: localhost:25571
+    restricted: false
+  Random-Loot:
+    motd: Random Loot Server
+    address: localhost:25572
+    restricted: false
+  Skyblock:
+    motd: Skyblock Server
+    address: localhost:25573
+    restricted: false
+  Hardcore:
+    motd: Hardcore Server
+    address: localhost:25574
+    restricted: false
+  Creative:
+    motd: Creative Server
+    address: localhost:25575
+    restricted: false
